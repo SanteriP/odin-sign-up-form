@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.page-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.image-sidebar {
+    flex-basis: 500px;
+    min-width: 300px;
+    height: 100vw;
+}
+
+.signup-details {
+    width: 600px;
+    height: 500px;
+}
+
+fieldset {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+label {
+    width: 50%;
+}
