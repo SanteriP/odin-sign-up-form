@@ -10,32 +10,40 @@
     <div class="page-content">
         <div class="image-sidebar">
             <div class="logo-area">
-                <h1>ODIN</h1>
+                <h1>RESORT</h1>
             </div>
         </div>
-        <div class="signup">
-            <div class="motivation">
-                <p>When you sign up for our service, all your wildest dreams will come true.
-                    We are definitely not exaggerating, and there are definitely no other services like ours.
-                    But the only way to find out is by signing up, so do it now!
-                </p>
-            </div>
-            <div class="signup-details">
-                <form action="">
-                    <fieldset>
-                        <legend><h2>Sign up here</h2></legend>
-                        <label for=""><input type="text"></label>
-                        <label for=""><input type="text"></label>
-                        <label for=""><input type="text"></label>
-                        <label for=""><input type="text"></label>
-                        <label for=""><input type="text"></label>
-                        <label for=""><input type="text"></label>
-                    </fieldset>
+        <div class="signup-wrapper">
+            <div class="signup">
+                <div class="motivation">
+                    <p>
+                        When you sign up for our service, all your <em>wildest</em> dreams will come true.
+                        We are definitely not exaggerating, and there are <strong>definitely</strong> no other services like ours.
+                    </p>
+                    <p>
+                        But the only way to find out is by signing up, <strong>so do it now!</strong>
+                    </p>
+                </div>
+                <div class="signup-details-wrapper">
+                    <div class="signup-details">
+                        <form action="">
+                            <fieldset>
+                                <legend><h2>Sign up here</h2></legend>
+                                <label for="first-name">first name<input type="text" id="first-name" name="first-name" maxlength="32" required></label>
+                                <label for="last-name">last name<input type="text" id="last-name" name="last-name" maxlength="32" required></label>
+                                <label for="email">email<input type="email" id="email" name="email" required></label>
+                                <label for="phone">phone number<input type="tel" id="phone" name="phone" required></label>
+                                <label for="password">password<input type="password" id="password" name="password" maxlength="32" required></label>
+                                <label for="confirm-password">confirm password<input type="password" id="confirm-password" name="confirm-password" maxlength="32" required></label>
+                            </fieldset>
+                            <fieldset>
+                                <button type="submit">Create Account</button>
+                            </fieldset>
+                        </form>
 
-                    <fieldset>
-                        <button type="submit">Create Account</button>
-                    </fieldset>
-                </form>
+                        <p>Already have an account? <a href="">Log in</a></p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
